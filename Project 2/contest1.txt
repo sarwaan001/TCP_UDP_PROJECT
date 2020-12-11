@@ -1,0 +1,19 @@
+p 23
+presidents, US History
+Who was the first President of the USA?
+.
+a) Thomas Jefferson
+.
+b) Abraham Lincoln
+.
+c) George Washington
+.
+d) Benjamin Franklin
+.
+.
+c
+b 1
+s 1
+a 1 27
+a 1 23
+b 1

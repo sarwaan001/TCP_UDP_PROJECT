@@ -1,0 +1,34 @@
+.\" Manpage for qclient.
+.\" Contact asarwaan71@gmail.com to correct errors or typos.
+.TH man 8 "19 Feb 2019" "1.0" "qclient man page"
+.SH NAME
+qclient \- Create a client host to connect to qserver 
+.SH SYNOPSIS
+qclient [HOSTNAME] [PORT]
+.SH DESCRIPTION
+qclient is a client interface to connect to qserver. It has specific commands that can be viewed with the command -h in the interface. You must supply the hostname and port to open the interface. This interface is the only way to connect to qserver.
+.SH OPTIONS
+There are no other options for qclient besides hostname and port.
+.SH SEE ALSO
+qserver
+.SH BUGS
+If Port is omitted, there is a segmentation fault rather than an error. Either way you need both the hostname and port in order to run this program.
+.SH AUTHOR
+Sarwaan Ansari
+.\" Manpage for qserver.
+.\" Contact asarwaan71@gmail.com to correct errors or typos.
+.TH man 8 "19 Feb 2019" "1.0" "qserver man page"
+.SH NAME
+qserver \- Create a server for the question database
+.SH SYNOPSIS
+qserver
+.SH DESCRIPTION
+Qserver is a server interface to for qclient to log into. The qclient needs to have the specific hostname that is printed out into qserver.
+.SH OPTIONS
+qserver does not take any options. 
+.SH SEE ALSO
+qclient
+.SH BUGS
+Character Printing bugs, the server does not display printed characters in a friendly way compared to the outputs in qclient. There has been more of a focus on qclient user interface. Qserver outputs anything that was printed for debugging. IT IS IMPORTANT TO NOTE THAT THE TIMEFRAME FOR THIS PROGRAM MEANS THAT THERE ARE PROBABLY A BUNCH OF BUGS THAT ARE UNDETECTED.
+.SH AUTHOR
+Sarwaan Ansari
